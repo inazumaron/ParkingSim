@@ -177,6 +177,12 @@ const Home = () => {
 
   const addCar = (carData) => {
     let returningTrue = false;
+
+    if (carData.id == "") {
+      alert("Error", "Please input a car ID", [{ text: "OK" }]);
+      return -1;
+    }
+
     //check if car already exist
     const alreadyParked = parkedCars.some(
       (parkedCar) => parkedCar.id === carData.id
