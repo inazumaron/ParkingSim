@@ -16,7 +16,6 @@ export const vehicleStyles = StyleSheet.create({
   btnContainer: {
     margin: "auto",
     flex: 1,
-    flexDirection: "row",
     justifyContent: "space-evenly",
     width: "300px",
     marginVertical: 5,
