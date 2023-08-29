@@ -1,5 +1,6 @@
 import { View, Text, TextInput, TouchableOpacity } from "react-native";
-import { TablePicker, EntrancePicker } from "../index";
+import { default as TablePicker } from "./TablePicker/TablePicker";
+import { default as EntrancePicker } from "./EntrancePicker/EntrancePicker";
 import { settingStyles as styles } from "../../styles/settingsStyles";
 import { useState } from "react";
 

@@ -1,5 +1,6 @@
 import { View, Image, Text } from "react-native";
-import { VehicleActions, TimeControls } from "../index";
+import { default as TimeControls } from "./TimeControls/TimeControls";
+import { default as VehicleActions } from "./VehicleActions/VehicleActions";
 import { homeStyles as styles } from "../../styles/homeStyles";
 
 const HomePage = ({ props }) => {

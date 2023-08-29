@@ -1,7 +1,7 @@
 import { View, Text } from "react-native";
 import { viewStyles as styles } from "../../styles/viewStyles";
 import { dataTableStyles as styles2 } from "../../styles/dataTableStyles";
-import { DataTable } from "../index";
+import { default as DataTable } from "./DataTable/DataTable";
 
 const ParkingView = ({ parkingLot, dimensions, parkingSlotList }) => {
   return (
